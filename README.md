@@ -18,5 +18,5 @@ https://shraavanitople.github.io/publicai-pulse
 
 This simulation uses basic rule-based logic. For example, increasing transparency while reducing bias improves public outcomes. The goal is to help users think critically about how AI systems can govern public services.
 
-## File Structure
+
 
