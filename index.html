@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PublicAI Pulse</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>PublicAI Pulse</h1>
+  <p>Explore how AI governance impacts public service outcomes.</p>
+
+  <div class="slider-container">
+    <label for="transparency">Transparency: <span id="transparencyVal">50</span>%</label><br>
+    <input type="range" id="transparency" min="0" max="100" value="50">
+  </div>
+
+  <div class="slider-container">
+    <label for="bias">Bias Level: <span id="biasVal">50</span>%</label><br>
+    <input type="range" id="bias" min="0" max="100" value="50">
+  </div>
+
+  <div class="results">
+    <h3>Simulation Output</h3>
+    <p id="healthcare">Healthcare Access: --</p>
+    <p id="transit">Transit Fairness: --</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
